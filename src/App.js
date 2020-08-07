@@ -3,13 +3,15 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import HomePage from './pages/Home.page';
 import ProjectPage from './pages/Project.page';
 
-// import Blur from './components/blurTop.component';
+// import Blur from './components/BlurTop.component';
+import Header from './components/Header.component';
 
 function App() {
   return (
   <Router>
       <div className='App'>
         {/* <Blur/> */}
+        <Header/>
         <Switch>
           <Route exact path='/' component={HomePage} />
           <Route exact path='/project' component={ProjectPage} />

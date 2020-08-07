@@ -11,10 +11,7 @@ ${reset}
     font-family: sans-serif;
     background-color:${colors.neutralBlack};
     color: ${colors.neutralWhite};
-    display: flex;
     overflow-x: hidden;
-    flex-direction: column;
-    align-items: center;
   }
 
 `;
