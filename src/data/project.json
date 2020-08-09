@@ -1,0 +1,72 @@
+[
+  {
+    "name": "canwebreathenow",
+    "infos": "VueJS • 2020",
+    "forwho": "school project",
+    "image": "test.png",
+    "date": "june 2020",
+    "website": "https://canwebreathenow.netlify.app/",
+    "repository": "https://github.com/Projet-fin-annee",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non integer lobortis velit, id aliquam, convallis. Consequat bibendum dui massa habitasse consectetur. Sed phasellus egestas ut in condimentum cursus fermentum. Dictum dui maecenas sit cursus fames tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non integer lobortis velit, id aliquam, convallis. Consequat bibendum dui massa habitasse consectetur. Sed phasellus egestas ut in condimentum cursus fermentum. Dictum dui maecenas sit cursus fames tincidunt.",
+    "role": "Front-end Developer (VueJS)",
+    "deadline": "3 weeks",
+    "partners": ["Lina BLIDI (Designer) ", "Tania ABIBTOL (Back-end) ", " Maëva WOLFF (Front-end)"],
+    "images": ["canwebreathenow1.png", "canwebreathenow2.png", "canwebreathenow3.png"]
+  },
+  {
+    "name": "katana",
+    "infos": "HTML - CSS - JavaScript - Php • 2020",
+    "forwho": "school project",
+    "image": "test.png",
+    "date": "april 2020",
+    "website": "",
+    "repository": "https://github.com/MaevaWolff/katana",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non integer lobortis velit, id aliquam, convallis. Consequat bibendum dui massa habitasse consectetur. Sed phasellus egestas ut in condimentum cursus fermentum. Dictum dui maecenas sit cursus fames tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non integer lobortis velit, id aliquam, convallis. Consequat bibendum dui massa habitasse consectetur. Sed phasellus egestas ut in condimentum cursus fermentum. Dictum dui maecenas sit cursus fames tincidunt.",
+    "role": "Front-end / Back-end Developer",
+    "deadline": "1 week",
+    "partners": ["Lina BLIDI (Designer) ", "Raphael FERREIRA (Front-end) ", " Maëva WOLFF (Front/Back-end)"],
+    "images": ["katana1.png", "katana2.png", "katana3.png"]
+  },
+  {
+    "name": "Kap Hardie",
+    "infos": "HTML - CSS - JavaScript • 2020",
+    "forwho": "school project",
+    "image": "test.png",
+    "date": "February 2020",
+    "website": "https://kaphardie.netlify.com/",
+    "repository": "https://github.com/bastien17-dev/kaphardie",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non integer lobortis velit, id aliquam, convallis. Consequat bibendum dui massa habitasse consectetur. Sed phasellus egestas ut in condimentum cursus fermentum. Dictum dui maecenas sit cursus fames tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non integer lobortis velit, id aliquam, convallis. Consequat bibendum dui massa habitasse consectetur. Sed phasellus egestas ut in condimentum cursus fermentum. Dictum dui maecenas sit cursus fames tincidunt.",
+    "role": "Front-end Developer",
+    "deadline": "2 weeks",
+    "partners": ["Bastien PAQUIER (Front-end) ", "Constance PETILLOT (Front-end) ", "Quentin TROUVE (Front-end) ", " Lucas ROCHE (Photoshop)"],
+    "images": ["kaphardie1.png", "kaphardie2.png", "kaphardie3.png"]
+  },
+  {
+    "name": "Save It",
+    "infos": "JavaScript • 2020",
+    "forwho": "school project",
+    "image": "test.png",
+    "date": "January 2020",
+    "website": "https://js-groupe9ico.netlify.com/",
+    "repository": "https://github.com/Nstampfli/Js-Groupe9ICO",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non integer lobortis velit, id aliquam, convallis. Consequat bibendum dui massa habitasse consectetur. Sed phasellus egestas ut in condimentum cursus fermentum. Dictum dui maecenas sit cursus fames tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non integer lobortis velit, id aliquam, convallis. Consequat bibendum dui massa habitasse consectetur. Sed phasellus egestas ut in condimentum cursus fermentum. Dictum dui maecenas sit cursus fames tincidunt.",
+    "role": "Front-end Developer (JavaScript)",
+    "deadline": "4 days",
+    "partners": ["Romain FEREGOTTO (Front-end) ", "Yves-Charbeli KORDAHI (Front-end) ", " Kylian MENDY (Design)"],
+    "images": ["saveit1.png", "saveit2.png", "saveit3.png"]
+  },
+  {
+    "name": "arch-e-mede",
+    "infos": "HTML - CSS - JavaScript • 2019",
+    "forwho": "school project",
+    "image": "test.png",
+    "date": "November 2019",
+    "website": "https://arch-e-mede.netlify.com/",
+    "repository": "https://github.com/Nstampfli/hetic-w1p2022-01",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non integer lobortis velit, id aliquam, convallis. Consequat bibendum dui massa habitasse consectetur. Sed phasellus egestas ut in condimentum cursus fermentum. Dictum dui maecenas sit cursus fames tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non integer lobortis velit, id aliquam, convallis. Consequat bibendum dui massa habitasse consectetur. Sed phasellus egestas ut in condimentum cursus fermentum. Dictum dui maecenas sit cursus fames tincidunt.",
+    "role": "Front-end Developer ",
+    "deadline": "4 days",
+    "partners": ["Bastien PAQUIER (Front-end) ", "Constance PETILLOT (Front-end) ", "Quentin TROUVE (Front-end) ", " Guillaume RAK-LECLER (Design)"],
+    "images": ["archemede1.png", "archemede2.png", "archemede3.png"]
+  }
+]
