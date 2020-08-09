@@ -71,12 +71,13 @@ const ProjectImage = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 `;
 
 const ImageBand = styled.div`
   width: 50px;
   height: 300px;
-  background: url('http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/asticou-azalea-garden.jpg?itok=q6aC8fly%27') no-repeat 0 0 fixed;
+  background: no-repeat 0 0 fixed;
   margin: 5px;
   display: inline-block;
   transition: all ease-in-out .4s;
@@ -119,7 +120,7 @@ const ProjectInfos = styled.div`
   justify-content: center;
   align-items: center; 
    @media (min-width: ${breakpoints.tablet}) {
-     max-width: 35%;
+     max-width: 45%;
     align-items: flex-start;
     margin: 0px 50px
     }
