@@ -1,7 +1,7 @@
 import React from 'react';
 import { breakpoints, colors } from '../styles/config/const';
 import styled from 'styled-components';
-import ScrollIndicator from '../components/ScrollIndicator.component';
+import ScrollIndicator from './ScrollIndicator.component';
 
 export default function Hero() {
   return (
