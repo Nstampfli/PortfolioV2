@@ -1,8 +1,8 @@
 [
   {
-    "name": "canwebreathenow",
+    "name": "can we breathe now?",
     "infos": "VueJS • 2020",
-    "forwho": "school project",
+    "goal": "school project",
     "image": "test.png",
     "date": "june 2020",
     "website": "https://canwebreathenow.netlify.app/",
@@ -16,7 +16,7 @@
   {
     "name": "katana",
     "infos": "HTML - CSS - JavaScript - Php • 2020",
-    "forwho": "school project",
+    "goal": "school project",
     "image": "test.png",
     "date": "april 2020",
     "website": "",
@@ -30,7 +30,7 @@
   {
     "name": "Kap Hardie",
     "infos": "HTML - CSS - JavaScript • 2020",
-    "forwho": "school project",
+    "goal": "school project",
     "image": "test.png",
     "date": "february 2020",
     "website": "https://kaphardie.netlify.com/",
@@ -44,7 +44,7 @@
   {
     "name": "Save It",
     "infos": "JavaScript • 2020",
-    "forwho": "school project",
+    "goal": "school project",
     "image": "test.png",
     "date": "january 2020",
     "website": "https://js-groupe9ico.netlify.com/",
@@ -58,7 +58,7 @@
   {
     "name": "arch-e-mede",
     "infos": "HTML - CSS - JavaScript • 2019",
-    "forwho": "school project",
+    "goal": "school project",
     "image": "test.png",
     "date": "november 2019",
     "website": "https://arch-e-mede.netlify.com/",
