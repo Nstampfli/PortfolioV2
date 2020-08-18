@@ -1,7 +1,7 @@
 export const colors = {
   neutralBlack: '#0D0D0D',
   neutralWhite: '#EDEDED',
-  darkGrey: '#242424',
+  darkGrey: '#303030',
   primaryColor: '#D22020',
 
 };

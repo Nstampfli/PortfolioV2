@@ -5,7 +5,7 @@ import ProjectPage from './pages/Project.page';
 
 // import Blur from './components/BlurTop.component';
 import Header from './components/Header.component';
-
+import Footer from './components/Footer.component';
 function App() {
   return (
   <Router>
@@ -16,6 +16,7 @@ function App() {
           <Route exact path='/' component={HomePage} />
           <Route exact path='/project' component={ProjectPage} />
         </Switch>
+        <Footer/>
       </div>
   </Router>
   );
