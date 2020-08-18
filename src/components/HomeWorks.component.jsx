@@ -12,15 +12,10 @@ export default function HomeProjects() {
         </TitleSection>
         {works.map((work, index) => {
         return (
-          <ProjectContainer
-          key={index}
-          >
-            <ProjectImage>
-              <ImageBand  style={{ backgroundImage: `url(${require(`../assets/${work.image}`)})`}} ></ImageBand>
-              <ImageBand  style={{ backgroundImage: `url(${require(`../assets/${work.image}`)})`}} ></ImageBand>
-              <ImageBand  style={{ backgroundImage: `url(${require(`../assets/${work.image}`)})`}} ></ImageBand>
-              <ImageBand  style={{ backgroundImage: `url(${require(`../assets/${work.image}`)})`}} ></ImageBand>
-              <ImageBand  style={{ backgroundImage: `url(${require(`../assets/${work.image}`)})`}} ></ImageBand>
+          <ProjectContainer key={index}>
+            <ProjectImage 
+                src={require(`../assets/${work.image}`)}
+                alt='ProjectImage' >
             </ProjectImage>
             <ProjectInfos>
               <Title>{work.name}</Title>
@@ -53,10 +48,11 @@ const TitleSection = styled.h3`
   }
 `;
 const ProjectContainer = styled.div`
-  margin-top: 80px;
+  margin-top: 100px;
   width: 100%;
   display: flex;
   flex-direction: column;
+  cursor: pointer;
   align-items: center;
   justify-content: center;
   @media (min-width: ${breakpoints.tablet}) {
@@ -67,60 +63,29 @@ const ProjectContainer = styled.div`
     }
   }
 `;
-const ProjectImage = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-`;
 
-const ImageBand = styled.div`
-  width: 50px;
-  height: 300px;
-  background: no-repeat 0 0 fixed;
-  margin: 5px;
-  display: inline-block;
+
+const ProjectImage = styled.img`
+  width : 75%;
+  height: auto;
+  max-width: 600px;
   transition: all ease-in-out .4s;
+  @media (min-width: ${breakpoints.tablet}) {
+    width: 55%;
+  }
   &:hover{
-    transform: scale(1.1)
-  }
-    @media (min-width: ${breakpoints.tablet}) {
-      width: 75px;
-      height: 375px;
-      margin: 8px;
-    }
-    @media (min-width: ${breakpoints.laptop}) {
-      width: 100px;
-      height: 450px;
-      margin: 10px;
-    }
-  &:nth-child(1),:nth-last-child(1){
-    height: 200px;
-    @media (min-width: ${breakpoints.tablet}) {
-      height: 275px;
-    }
-    @media (min-width: ${breakpoints.laptop}) {
-      height: 350px;
-    }
-  }
-  &:nth-child(even){
-    height: 250px;
-    @media (min-width: ${breakpoints.tablet}) {
-    height: 325px;
-    }
-    @media (min-width: ${breakpoints.laptop}) {
-      height: 400px;
-    }
+    transform: scale(1.1);
   }
 `;
 const ProjectInfos = styled.div`
   display: flex;
+  width: 90%;
   margin-top : 20px;
   flex-direction: column;
   justify-content: center;
   align-items: center; 
    @media (min-width: ${breakpoints.tablet}) {
-     max-width: 45%;
+    width: 45%;
     align-items: flex-start;
     margin: 0px 50px
     }
@@ -148,6 +113,7 @@ const Title = styled.h2`
 const Info = styled.p`
   margin-top: 17px;
   font-size: 18px;
+  text-align: center;
   span{
     color: ${colors.primaryColor}
   }
