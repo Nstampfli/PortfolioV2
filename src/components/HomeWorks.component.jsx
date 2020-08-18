@@ -37,6 +37,7 @@ const Container = styled.div`
   justify-content: center;
 `;
 const TitleSection = styled.h3`
+  font-weight: 600;
   margin-top: 80px;
   text-align: center;
   font-size: 20px;
