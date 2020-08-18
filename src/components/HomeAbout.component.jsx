@@ -8,6 +8,20 @@ export default function HomeAbout() {
         <TitleSection>
           aboutme<span>_</span>
         </TitleSection>
+        <Infos>
+          <Description>
+          Hey ! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum vel pharetra, placerat
+          arcu congue scelerisque lorem interdum. Urna amet, sagittis cras egestas. Mauris semper vitae
+            consectetur viverra nisl viverra consectetur luctus interdum. Volutpat purus elementum auctor 
+            odio ac mauris pellentesque faucibus.Urna amet, sagittis cras egestas. Mauris semper vitae consectetur
+            viverra nisl viverra consectetur luctus interdum. Volutpat purus elementum auctor odio ac mauris 
+            pellentesque faucibus.
+          </Description>
+          <Stacks>
+            <Stack>VueJS • ReactJS • Git • JavaScript • HTML • Beers • Python • VueJS • ReactJS • Git • JavaScript • HTML • SCSS • Python • VueJS • ReactJS • Git • JavaScript • HTML • SCSS • Python • VueJS • ReactJS • Git • JavaScript • HTML • SCSS • Python •• VueJS • ReactJS • Git • JavaScript • HTML • SCSS • Python • VueJS • ReactJS • Git • JavaScript • HTML • SCSS • Python •</Stack>
+            <Stack>VueJS • ReactJS • Git • JavaScript • HTML • Beers • Python • VueJS • ReactJS • Git • JavaScript • HTML • SCSS • Python • VueJS • ReactJS • Git • JavaScript • HTML • SCSS • Python • VueJS • ReactJS • Git • JavaScript • HTML • SCSS • Python •• VueJS • ReactJS • Git • JavaScript • HTML • SCSS • Python • VueJS • ReactJS • Git • JavaScript • HTML • SCSS • Python • </Stack>
+          </Stacks>
+        </Infos>
     </Container>
   )
 }
@@ -30,4 +44,31 @@ const TitleSection = styled.h3`
   span{
     color: ${colors.primaryColor}
   }
+`;
+const Infos = styled.div`
+  margin-top: 40px;
+  width: 90%;
+  @media (min-width: ${breakpoints.tablet}) {
+    width: 50%;
+  }
+`;
+const Description = styled.p`
+  line-height: 36px;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+`;
+const Stacks = styled.div`
+  margin: 120px 0px;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  width:100%;
+`;
+const Stack = styled.p`
+  transform: translateX(-50%);
+  align-items: center;
+  white-space: nowrap;
+  line-height: 36px;
+  font-size: 18px;
 `;
